@@ -1,8 +1,4 @@
-﻿"""Task runner replacing the guide's Makefile (Windows, no make).
-
-Usage: python tasks.py <target>
-Targets: test, data, forecast, tune, grid, analyze, report, freeze, all, smoke
-"""
+﻿
 import subprocess
 import sys
 from pathlib import Path
