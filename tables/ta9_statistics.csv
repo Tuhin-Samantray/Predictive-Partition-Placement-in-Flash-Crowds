@@ -1,0 +1,31 @@
+id,hypothesis,holm_family,n_tests,p_holm_min,label,status
+C1,H1,F1,4,0.0004,inconclusive,confirmatory
+C2,H2,F2,2,0.2765939942410531,inconclusive,confirmatory
+C3,H3,F3,2,0.009390747292223906,inconclusive,confirmatory
+C4,H4,"single test, no Holm",1,,inconclusive,confirmatory
+C5,H5,"no p value, no Holm",0,,not supported,confirmatory
+C6,H6,"single test, no Holm",1,,inconclusive,confirmatory
+C7,H9,F5,6,4.3378634018154116e-11,supported,confirmatory
+C8,H10,F6,6,1.0,inconclusive,confirmatory
+C9,H11,F7,4,0.07417018304814352,inconclusive,confirmatory
+C10,H12,F8,4,0.6293922889193638,not supported,confirmatory
+C11,none,F9,28,5.21540641784668e-08,"family reported, no support label",confirmatory (no label rule)
+C13,none,F10,10,1.6295557943119345e-10,"family reported, no support label",confirmatory (no label rule)
+C12:AA1,none,C12:AA1,8,1.4622888891540403e-09,not labelled (descriptive),ablation family (descriptive)
+C12:AA2,none,C12:AA2,4,1.2383569065273948e-07,not labelled (descriptive),ablation family (descriptive)
+C12:AA3,none,C12:AA3,30,1.3439915846902295e-10,not labelled (descriptive),ablation family (descriptive)
+C12:AA4,none,C12:AA4,24,0.008200844677048735,not labelled (descriptive),ablation family (descriptive)
+C12:AA5,none,C12:AA5,48,7.821867812697285e-10,not labelled (descriptive),ablation family (descriptive)
+C12:AA6,none,C12:AA6,8,0.0014845031570303036,not labelled (descriptive),ablation family (descriptive)
+C12:AA7,none,C12:AA7,8,1.3036446354495476e-10,not labelled (descriptive),ablation family (descriptive)
+C12:AA8,none,C12:AA8,12,1.9554669531743213e-10,not labelled (descriptive),ablation family (descriptive)
+C12:AA9,none,C12:AA9,16,2.607289270899095e-10,not labelled (descriptive),ablation family (descriptive)
+C12:AA10,none,C12:AA10,24,4.263256414560601e-14,not labelled (descriptive),ablation family (descriptive)
+C12:AA11,none,C12:AA11,4,6.518223177247738e-11,not labelled (descriptive),ablation family (descriptive)
+INT,none,none,0,,fires,pre-registered rule
+AA13,none,none,0,,not completed,not completed
+XA6,none,none,0,,not completed,not completed
+FA16,none,none,0,,not completed,not completed
+TOTAL confirmatory,,sum of n_tests,68,,,
+TOTAL ablation families,,sum of n_tests,186,,,
+TOTAL all rows,,sum of n_tests,254,,,

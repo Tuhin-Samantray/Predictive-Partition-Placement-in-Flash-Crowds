@@ -1,0 +1,32 @@
+kind,guide_id,review_number,title,source_tables,status,note
+table,TA1,,Datasets,ta1_datasets.csv,made,
+table,TA2,,"Parameters with real, assumed or design tag",ta2_parameters.csv,made,
+table,TA3,,Forecast accuracy,ta3_forecast_accuracy.csv,made,
+table,TA4,,Main results,ta4_main_results.csv,made,
+table,TA5,,Regime map,ta5_regime_map.csv,made,
+table,TA6,,Ablations,ta6_ablations.csv,made,
+table,TA7,,Cross-dataset results,ta7_cross_data.csv,made,
+table,TA8,,Cross-layer and scenarios,ta8_cross_layer.csv,made,
+table,TA9,,Statistics and ledger,ta9_statistics.csv,made,
+table,RT1,5,Contention levels per policy (descriptive),rt_rv1_metrics.csv,made,
+table,RT2,,"Damage, violation fraction, backlog and moves per policy (descriptive)",rt_policy_metrics.csv,made,
+figure,FA2,3,Episode: events and policy trajectories,,made,mapping confirmed by the recorded figure files (A107)
+figure,FA3,,Forecast accuracy,ta3_forecast_accuracy.csv,made,mapping confirmed by the recorded figure files (A107)
+figure,FA4,,Early warning,forecast_accuracy_early_warning.csv,made,mapping confirmed by the recorded figure files (A107)
+figure,FA5,,Lag tax,c1_lag_tax.csv,made,mapping confirmed by the recorded figure files (A107)
+figure,FA6,4,Regime map,regime_map_q2.csv;regime_map_must.csv,made,mapping confirmed by the recorded figure files (A107)
+figure,FA7,1;2,Main comparison,rt_policy_metrics.csv,made,mapping confirmed by the recorded figure files (A107)
+figure,n/a,5,Main comparison per dataset,rt_policy_metrics.csv,partial,no separate file; see review_coverage.md
+figure,FA8,,Cross-dataset transfer,c5_transfer_detail.csv;xa1_transfer_matrix.csv,made,mapping confirmed by the recorded figure files (A107)
+figure,FA9,,Cross-dataset ranking,c6_ranking.csv,made,mapping confirmed by the recorded figure files (A107)
+figure,FA10,,Ablations,aa_ablations.csv,made,mapping confirmed by the recorded figure files (A107)
+figure,FA11,,Damage against moves,rt_policy_metrics.csv,made,mapping confirmed by the recorded figure files (A107)
+figure,FA12,7,MASE against placement benefit,c4_accuracy_benefit_cells.csv,made,mapping confirmed by the recorded figure files (A107)
+figure,FA13,6,Cross-layer contention,rt_rv1_metrics.csv;rv1_contention.csv,made,mapping confirmed by the recorded figure files (A107)
+figure,FA14,8,Conformal pooled coverage and width,rv4_logging.csv,made,mapping confirmed by the recorded figure files (A107)
+figure,FA15,10,Placement and throttle,rv2_placement.csv;rv3_budget.csv,made,mapping confirmed by the recorded figure files (A107)
+figure,n/a,9,Sensitivity to migration duration,regime_map_must.csv,not drawn,no recorded migration-duration sensitivity (A101)
+figure,FA16,,Sensitivity tornado,,not completed,not made (A88)
+table,RT3,5,"Contention levels, full minimum columns (joined)",rt_rv1_metrics.csv;rv1_contention.csv,made,A107
+table,RT4,11,Policy behaviour summary,rt_policy_metrics.csv,made,A107
+table,COV,,Review coverage matrix,review_coverage.csv,made,A107

@@ -1,0 +1,1 @@
+FA7b. SLO violation fraction (top) and peak backlog in steps (bottom) for the seven policies, per dataset: mean per-event value with its 95% BCa interval over events (9999 resamples, master seed 42). R0, R1, R2 are P0, P1, P2. Events per dataset: D1 60; D2 60; D1_D3 40; D2_D3 40. Default m and headroom; tables/rt_policy_metrics.csv (descriptive, not pre-registered).

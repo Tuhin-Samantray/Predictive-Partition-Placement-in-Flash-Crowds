@@ -1,0 +1,5 @@
+﻿id,caption
+review_table5_contention,"Descriptive contention table per dataset and policy for the full, CPU-off, NIC-off and both-off rows, under the stated model. Not pre-registered."
+review_table11_policies,"Policy properties as designed (P0 to P5) with the descriptive outcome columns taken from the policy metrics table."
+rt_policy_metrics,"Descriptive per-event policy metrics per dataset at the default migration duration and headroom: mean, median, standard deviation, BCa interval of the mean and ratio to P1. Not pre-registered; datasets are not pooled."
+rt_rv1_metrics,"Descriptive metrics per dataset, policy and contention level (full, CPU off, NIC off, both off), under the stated model. Not pre-registered."

@@ -1,0 +1,30 @@
+review_item,status,sources,note
+Table 1,covered,ta1_datasets.csv; ta2_parameters.csv,"Parameters tagged real, assumed or design."
+Table 2,partial,rt_policy_metrics.csv; fa7_damage.pdf; fa7_violation_backlog.pdf,"Per dataset, not pooled (damage scales differ by three orders of magnitude, A88). Seven policies, BCa 95% interval."
+Table 3,covered,rt_policy_metrics.csv,"D1, D2 and the injected variants D1_D3 and D2_D3."
+Table 4,covered,ta4_main_results.csv; c1_lag_tax.csv; ta5_regime_map.csv; c11_main_comparison.csv,Lag tax and recovery ratio from C1 and the regime tables; P5 and P4a against P1 in C11.
+Table 5,covered,review_table5_contention.csv,"Joined view of rt_rv1_metrics and rv1_contention (new, A107). Coupled and constant-m modes differ in moves taken: a contrast between modes is not interpreted (A90)."
+Table 6,partial,c13_p4a_pairs.csv,"P4a against P0, P1, P3, P4, P5, Holm family F10, on D1 and D2 only (no D3 pairs)."
+Table 7,covered,rt_policy_metrics.csv,Same source as Table 3.
+Table 8,covered,rt_policy_metrics.csv,Ratio to P1 with BCa interval; percentage change is ratio minus 1.
+Table 9,partial,rt_policy_metrics.csv; rv1_contention.csv; c10_h12.csv,Moves started and wasted moves; migration duration only for the RV1 rows; completed migrations are not a separate recorded field.
+Table 10,covered,rt_policy_metrics.csv,"Mean, sd and BCa interval per event, damage and peak backlog."
+Table 11,covered,review_table11_policies.csv,"Generated (A107): policy properties from the design, outcome column from the recorded damage ratios."
+Figure 1,covered,fa7_damage.pdf,"Seven policies, per dataset."
+Figure 2,covered,fa7_violation_backlog.pdf,Violation fraction and peak backlog.
+Figure 3,covered,fa2_episode_D1.pdf; fa2_episode_D2.pdf,"Regenerated episode, rule-selected, equals frozen rows (A104 to A106)."
+Figure 4,covered,fa6_regime_q2.pdf; fa6_regime_must.pdf,Measured cells only.
+Figure 5,partial,fa7_damage.pdf,"No separate file for review Figure 5; confirm that FA7 shows damage per dataset, otherwise state as not made."
+Figure 6,covered,fa13_contention.pdf,"Four contention levels, P1, P3, P4a, P5."
+Figure 7,covered,fa12_mase_benefit.pdf,"One point per forecaster, dataset and onset class cell (20 cells)."
+Figure 8,partial,fa14_conformal_logging.pdf,Pooled coverage and width; no time axis because the recorded RV4 rows are pooled (A88).
+Figure 9,not made,,"Not drawn: no recorded migration-duration sensitivity for P1, P3, P4a, P5 (A101). Limitation for the manuscript."
+Figure 10,covered,fa15_placement_budget.pdf,Balanced against skewed placement and throttle (budget 1).
+C1,covered,rt_policy_metrics.csv; c11_main_comparison.csv,Seven policies.
+C2,covered,rt_policy_metrics.csv,Per dataset.
+C3,covered,c1_lag_tax.csv; c11_main_comparison.csv; c13_p4a_pairs.csv,R1 against proactive policies and P5.
+C4,covered,rv1_contention.csv; rt_rv1_metrics.csv,"Full, cpu_off, nic_off, both_off."
+C5,covered,c13_p4a_pairs.csv; c10_h12.csv,"P3, P4, P4a; H12 not supported."
+C6,covered,regime_map_q2.csv; regime_map_must.csv,"Onset slope (rise bucket) by migration duration, measured."
+C7,covered,rv2_placement.csv; rv3_budget.csv,Balanced against skewed; throttle budget 1.
+C8,covered,c4_accuracy_benefit.csv; c4_accuracy_benefit_cells.csv,H4 inconclusive.

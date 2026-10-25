@@ -1,0 +1,1 @@
+FA9. Policy ranking on D1 and D2 by median per-event damage (60 events on D1, 60 on D2), rank 1 is the lowest damage. R0, R1, R2 are P0, P1, P2. Kendall tau between the two rankings, tau and its percentile bootstrap interval are in the title (6 policies, threshold 0.6 in tables/c6_ranking_tau.csv). Source: tables/c6_ranking.csv.

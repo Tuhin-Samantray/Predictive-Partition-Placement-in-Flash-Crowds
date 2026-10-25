@@ -1,0 +1,30 @@
+id,kind,status,files
+FA2,figure,ok,fa2_episode_D1.pdf;fa2_episode_D2.pdf
+FA3,figure,ok,fa3_forecast_accuracy.pdf
+FA4,figure,ok,fa4_early_warning.pdf
+FA5,figure,ok,fa5_lag_tax.pdf
+FA6,figure,ok,fa6_regime_must.pdf;fa6_regime_q2.pdf
+FA7,figure,ok,fa7_damage.pdf;fa7_violation_backlog.pdf
+FA8,figure,ok,fa8_transfer.pdf
+FA9,figure,ok,fa9_ranking.pdf
+FA10,figure,ok,fa10_ablations_D1.pdf;fa10_ablations_D2.pdf
+FA11,figure,ok,fa11_damage_moves.pdf
+FA12,figure,ok,fa12_mase_benefit.pdf
+FA13,figure,ok,fa13_contention.pdf
+FA14,figure,ok,fa14_conformal_logging.pdf
+FA15,figure,ok,fa15_placement_budget.pdf
+TA1,table,ok,ta1_datasets.csv
+TA2,table,ok,ta2_parameters.csv
+TA3,table,ok,ta3_forecast_accuracy.csv
+TA4,table,ok,ta4_main_results.csv
+TA5,table,ok,ta5_regime_map.csv
+TA6,table,ok,ta6_ablations.csv
+TA7,table,ok,ta7_cross_data.csv
+TA8,table,ok,ta8_cross_layer.csv
+TA9,table,ok,ta9_statistics.csv
+FA1,item,undefined in the guide,
+FA16,item,not completed,
+review_table11_policies,table,ok,review_table11_policies.csv
+review_table5_contention,table,ok,review_table5_contention.csv
+rt_policy_metrics,table,ok,rt_policy_metrics.csv
+rt_rv1_metrics,table,ok,rt_rv1_metrics.csv

@@ -1,0 +1,20 @@
+{
+  "tag": "prereg-v1b",
+  "created_utc": "2026-10-23T09:19:14+00:00",
+  "python": "3.14.3",
+  "tree_sha256": "4eb6c6a4d95c682f7b89406c8fbb3b131354c3fd5ac7f368429639795a983371",
+  "files": {
+    "configs/default.yaml": {
+      "sha256": "32206e40154ed2f0c401e3ee9eed8cdd4a0852548ebded78a95dfd2c3d1d471a",
+      "bytes": 2469
+    },
+    "scripts/snapshot.py": {
+      "sha256": "f9c1f66a4f441ae38c4fe1f05f67599711a041569df125059fb2cf0eac64f7c3",
+      "bytes": 3086
+    },
+    "src/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  }
+}

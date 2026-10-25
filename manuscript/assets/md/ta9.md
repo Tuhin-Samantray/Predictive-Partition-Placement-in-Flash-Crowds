@@ -1,0 +1,32 @@
+| id | hypothesis | holm_family | n_tests | p_holm_min | label | status |
+| --- | --- | --- | --- | --- | --- | --- |
+| C1 | H1 | F1 | 4 | 0.0004 | inconclusive | confirmatory |
+| C2 | H2 | F2 | 2 | 0.277 | inconclusive | confirmatory |
+| C3 | H3 | F3 | 2 | 0.00939 | inconclusive | confirmatory |
+| C4 | H4 | single test, no Holm | 1 | n/a | inconclusive | confirmatory |
+| C5 | H5 | no p value, no Holm | 0 | n/a | not supported | confirmatory |
+| C6 | H6 | single test, no Holm | 1 | n/a | inconclusive | confirmatory |
+| C7 | H9 | F5 | 6 | 4.34e-11 | supported | confirmatory |
+| C8 | H10 | F6 | 6 | 1 | inconclusive | confirmatory |
+| C9 | H11 | F7 | 4 | 0.0742 | inconclusive | confirmatory |
+| C10 | H12 | F8 | 4 | 0.629 | not supported | confirmatory |
+| C11 | none | F9 | 28 | 5.22e-8 | family reported, no support label | confirmatory (no label rule) |
+| C13 | none | F10 | 10 | 1.63e-10 | family reported, no support label | confirmatory (no label rule) |
+| C12:AA1 | none | C12:AA1 | 8 | 1.46e-9 | not labelled (descriptive) | ablation family (descriptive) |
+| C12:AA2 | none | C12:AA2 | 4 | 1.24e-7 | not labelled (descriptive) | ablation family (descriptive) |
+| C12:AA3 | none | C12:AA3 | 30 | 1.34e-10 | not labelled (descriptive) | ablation family (descriptive) |
+| C12:AA4 | none | C12:AA4 | 24 | 0.0082 | not labelled (descriptive) | ablation family (descriptive) |
+| C12:AA5 | none | C12:AA5 | 48 | 7.82e-10 | not labelled (descriptive) | ablation family (descriptive) |
+| C12:AA6 | none | C12:AA6 | 8 | 0.00148 | not labelled (descriptive) | ablation family (descriptive) |
+| C12:AA7 | none | C12:AA7 | 8 | 1.3e-10 | not labelled (descriptive) | ablation family (descriptive) |
+| C12:AA8 | none | C12:AA8 | 12 | 1.96e-10 | not labelled (descriptive) | ablation family (descriptive) |
+| C12:AA9 | none | C12:AA9 | 16 | 2.61e-10 | not labelled (descriptive) | ablation family (descriptive) |
+| C12:AA10 | none | C12:AA10 | 24 | 4.26e-14 | not labelled (descriptive) | ablation family (descriptive) |
+| C12:AA11 | none | C12:AA11 | 4 | 6.52e-11 | not labelled (descriptive) | ablation family (descriptive) |
+| INT | none | none | 0 | n/a | fires | pre-registered rule |
+| AA13 | none | none | 0 | n/a | not completed | not completed |
+| XA6 | none | none | 0 | n/a | not completed | not completed |
+| FA16 | none | none | 0 | n/a | not completed | not completed |
+| TOTAL confirmatory | n/a | sum of n_tests | 68 | n/a | n/a | n/a |
+| TOTAL ablation families | n/a | sum of n_tests | 186 | n/a | n/a | n/a |
+| TOTAL all rows | n/a | sum of n_tests | 254 | n/a | n/a | n/a |

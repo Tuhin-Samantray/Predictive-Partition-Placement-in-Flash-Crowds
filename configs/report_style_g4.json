@@ -1,0 +1,11 @@
+{
+  "size_fa2": [7.2, 6.0],
+  "episode_policies": ["P1", "P3", "P4a", "P5"],
+  "episode_load_color": "#000000",
+  "forecast_color": "#0072B2",
+  "capacity_color": "#999999",
+  "capacity_linestyle": "--",
+  "span_color": "#E69F00",
+  "span_alpha": 0.15,
+  "slo_linestyle": ":"
+}

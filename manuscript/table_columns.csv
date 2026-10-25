@@ -1,0 +1,5 @@
+﻿id,columns
+TA1,dataset;role;step_seconds;n_steps;span_days;n_partitions;train_end;tune_end;eval_steps;n_events;events_eval_abrupt;events_eval_ramped;events_eval_all;bytes_provenance
+TA4,block;comparison;family;dataset;onset_class;n_events;mean_diff;ci_low;ci_high;p_holm
+TA5,block;dataset;onset_class;m;headroom;policy;n_events;n_events_defined;share_defined;median_R;ci_low;ci_high
+TA6,family;ablation;dataset;variant;level;n_events;mean_diff;ci_low;ci_high;p_holm

@@ -1,0 +1,80 @@
+{
+  "tag": "prereg-v1",
+  "created_utc": "2026-10-23T09:11:43+00:00",
+  "python": "3.14.3",
+  "tree_sha256": "d435cfee0c4813931e13b079bbff0d5f495ee45bf33bd6f0cfa3ba40cce5bca2",
+  "files": {
+    "configs/default.yaml": {
+      "sha256": "32206e40154ed2f0c401e3ee9eed8cdd4a0852548ebded78a95dfd2c3d1d471a",
+      "bytes": 2469
+    },
+    "configs/tuned.yaml": {
+      "sha256": "96b655f91c22e6b60095a8ec8456f44ff08f2dffc1fd8933a3b615322fc0296a",
+      "bytes": 169
+    },
+    "scripts/01_prepare.py": {
+      "sha256": "6b81672b72f2d9dcd6334984057ca8e007ca0a16b02d2fbf8f1f4a80153f84ff",
+      "bytes": 1121
+    },
+    "scripts/02_forecast.py": {
+      "sha256": "ece32fd2e0142364666800c7d9b16464a8687361e4628c5098fb9289e19b2320",
+      "bytes": 1774
+    },
+    "scripts/03_tune.py": {
+      "sha256": "864be4eff627d094da3c983578f7f46318f6a5f3a0cc89cae1c8b907c22e3554",
+      "bytes": 3674
+    },
+    "scripts/04_run_grid.py": {
+      "sha256": "b08be221d534a6ffaec52e36abc5f7a1104a1ab1ea1c21b2c3af7a0db09b6d32",
+      "bytes": 891
+    },
+    "scripts/05_analyze.py": {
+      "sha256": "ad85b2ae35574b3177110e88506b31205c711b6c2ba6e712ed68938915b3bd57",
+      "bytes": 4590
+    },
+    "scripts/05_generate_paper_artifacts.py": {
+      "sha256": "65cb491c50b46553cfadafffb3ade01db7ccc153c3792afd7469d38298cc4af1",
+      "bytes": 2593
+    },
+    "scripts/snapshot.py": {
+      "sha256": "f9c1f66a4f441ae38c4fe1f05f67599711a041569df125059fb2cf0eac64f7c3",
+      "bytes": 3086
+    },
+    "src/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "src/detect.py": {
+      "sha256": "85d898c3e6a8ef53229e2807d2bff776fc60d3778e492f7e1a84204914927bb2",
+      "bytes": 2372
+    },
+    "src/forecasters.py": {
+      "sha256": "df51a87c285269e9b76dcd9c9a9536b711bccf99140da9355b2d30c866ce3055",
+      "bytes": 980
+    },
+    "src/injector.py": {
+      "sha256": "3a4261a21f26db4681c6aa77d13d42b8c15ca2aae27c31c7b74afa121d87db6c",
+      "bytes": 1090
+    },
+    "src/layers.py": {
+      "sha256": "c66e7e9a52c5ff395ec88d6fd4daee1acd2345b8ea99543252f0a166994cb565",
+      "bytes": 750
+    },
+    "src/loaders.py": {
+      "sha256": "33a26f66144ab4797c4770dd10c4cafc27b2e56c945ff586db8b9dc9cd481bd8",
+      "bytes": 3416
+    },
+    "src/metrics.py": {
+      "sha256": "064718e25d7a3ea55d6f0b2368301f759489bb99ac6f177fa820768831d15e24",
+      "bytes": 904
+    },
+    "src/policies.py": {
+      "sha256": "262d0e459acc60fd4b918ad271b7ee1db348798fec92fe480733eef6c7d8aa82",
+      "bytes": 5954
+    },
+    "src/simulator.py": {
+      "sha256": "e31ea1042b75938def8810682e696be9de7594edf122ea9b61370830ab6d29b6",
+      "bytes": 2572
+    }
+  }
+}

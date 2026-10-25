@@ -1,0 +1,5 @@
+comparison,dataset,n_pairs,mismatch_damage,mismatch_moves,mismatch_wasted_moves,max_abs_diff_damage
+Q11 P4 rerun against Must P4,D1,60,0,0,0,0.0
+Q11 P4 rerun against Must P4,D2,60,0,0,0,0.0
+Q11 P4a rerun against Q1 AA6 P4a,D1,60,0,0,0,0.0
+Q11 P4a rerun against Q1 AA6 P4a,D2,60,0,0,0,0.0

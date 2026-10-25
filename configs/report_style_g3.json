@@ -1,0 +1,8 @@
+{
+  "level_order": ["full", "cpu_off", "nic_off", "both_off"],
+  "level_labels": {"full": "full", "cpu_off": "CPU off", "nic_off": "NIC off", "both_off": "both off"},
+  "rv1_policies": ["P1", "P3", "P4a", "P5"],
+  "size_fa13": [7.2, 7.4],
+  "size_fa14": [7.2, 3.4],
+  "size_fa15": [7.2, 5.2]
+}

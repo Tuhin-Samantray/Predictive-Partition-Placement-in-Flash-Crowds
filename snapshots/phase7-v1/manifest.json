@@ -1,0 +1,116 @@
+{
+  "tag": "phase7-v1",
+  "created_utc": "2026-10-24T05:58:19+00:00",
+  "python": "3.14.3",
+  "tree_sha256": "cc95c67f02e9b4715d81a6a461a43a6acd25108c4bce5f0bb70ea9b2fae286ab",
+  "files": {
+    "configs/default.yaml": {
+      "sha256": "f0867e4f89865c742bb50d43824a7aeba2085cc51bda69ad26b3f34d2b60c022",
+      "bytes": 5020
+    },
+    "configs/tuned.yaml": {
+      "sha256": "8248cb7739a07e404a7a095065fab8a36c998067fc1315922d661147e64a52d6",
+      "bytes": 5561
+    },
+    "scripts/01_prepare.py": {
+      "sha256": "67b5e9bb4f865b4eb1fc5b2076ecb9890f12415c49bbed764ef28357099d324b",
+      "bytes": 7139
+    },
+    "scripts/02_forecast.py": {
+      "sha256": "d19eb2bf4860316685ffe9de7d2223a7dfce5f77e4c228a88407a9ec5530a628",
+      "bytes": 6213
+    },
+    "scripts/02b_select_forecaster.py": {
+      "sha256": "b6350db4a78cef81a19a43bd5f4039cf10d0c76f9bd351c53b9638e50875d093",
+      "bytes": 1664
+    },
+    "scripts/03_tune.py": {
+      "sha256": "5a8685ecf9879369320fdb7379cb3b6babed8889bc2cba5fa4e01d2b6c7e4d55",
+      "bytes": 5937
+    },
+    "scripts/04_run_grid.py": {
+      "sha256": "5396d38e220bbbcd711359b7b14ecdf493239dca8bcb3c7d7c7a2ebf4169a71a",
+      "bytes": 11672
+    },
+    "scripts/diag_oracle.py": {
+      "sha256": "0b8cc3fed008ab438d7772ea4ca465d00e4e50c4e4d0284d70696e25f79feed9",
+      "bytes": 4780
+    },
+    "scripts/diag_oracle_d2.py": {
+      "sha256": "da419c9ac0aa374a94c461d00eac22620c1233ae76967e5e9e603b0cc83e5aa3",
+      "bytes": 4841
+    },
+    "scripts/diag_oracle_paired.py": {
+      "sha256": "fa7d721349517450160929d7355dd52edb042986e1ffaee5e2657838e81bd6a1",
+      "bytes": 4881
+    },
+    "scripts/diag_oracle_trace.py": {
+      "sha256": "7d56c16af850ae14fcdfcffd649c88139a71958095ec2a22e7bda286ae60958a",
+      "bytes": 3524
+    },
+    "scripts/snapshot.py": {
+      "sha256": "f9c1f66a4f441ae38c4fe1f05f67599711a041569df125059fb2cf0eac64f7c3",
+      "bytes": 3086
+    },
+    "src/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "src/accuracy.py": {
+      "sha256": "34f64dc207620bfa80e13797030165ab38a60872f692e08b4e1e8feeb5f8e9b1",
+      "bytes": 6467
+    },
+    "src/config.py": {
+      "sha256": "057720fbc74e1c164dec6fdd63683a564d4ba1ee163190e69a12176092c9ea99",
+      "bytes": 798
+    },
+    "src/detect.py": {
+      "sha256": "bd270a2943ee000a5e569c5ea0081b5208a727dbe7165aefd2b515a807f46c26",
+      "bytes": 2324
+    },
+    "src/forecast_select.py": {
+      "sha256": "6515165cff9599169e33433b23833460d24cf705d2a9b293e7980bbab161a4c6",
+      "bytes": 1465
+    },
+    "src/forecasters.py": {
+      "sha256": "0cae8989b42e68c4dfae1e2cc74352705c5bccc3b00190c8feb71a0b1748c91d",
+      "bytes": 5490
+    },
+    "src/injector.py": {
+      "sha256": "8fb2145dfe22eff7c9203e15a6509e0fe8922da23658828fea1a0d1517756fbd",
+      "bytes": 2221
+    },
+    "src/loaders.py": {
+      "sha256": "d6303fa455f469cdbf846ea2e474df3b51a4c7c9ecaf64926caa6c75b0405aa2",
+      "bytes": 9315
+    },
+    "src/metrics.py": {
+      "sha256": "f52d19e2368add01f29635c613c3f050b5620a5a609979dc7a0dd92956e43e72",
+      "bytes": 2526
+    },
+    "src/policies.py": {
+      "sha256": "d931331799a6b4556d2d2ff2d18d2f3700a63bf4fd8edbf40568d99b93551433",
+      "bytes": 10825
+    },
+    "src/replicates.py": {
+      "sha256": "7bc09691402c41e72ffc26533dfba4b3d73d6e5e2bda9dd453d5acee251ec028",
+      "bytes": 5822
+    },
+    "src/seeds.py": {
+      "sha256": "27858ebc4409092b0433739db4f5660eefa5a5b14ae693145db8ef4b2968e281",
+      "bytes": 285
+    },
+    "src/simulator.py": {
+      "sha256": "ac34dff2c521a6703064241cf0ad1955aba41065556cf16e469739ed4a0eaba5",
+      "bytes": 5723
+    },
+    "src/tuned_config.py": {
+      "sha256": "8a35a5302b9d2c992d8b77da9d72cc662ce44b5326c3d4402c6b04e564ae33f3",
+      "bytes": 2232
+    },
+    "src/tuning.py": {
+      "sha256": "63122ab547d543e136f9f3ac9aed16a09fbeb8c0aa9c20732e769772ba0846c9",
+      "bytes": 3749
+    }
+  }
+}

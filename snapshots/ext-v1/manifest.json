@@ -1,0 +1,200 @@
+{
+  "tag": "ext-v1",
+  "created_utc": "2026-10-24T16:48:45+00:00",
+  "python": "3.14.3",
+  "tree_sha256": "64878592cd936ac354b4c6747b4e5195438816226bc01c7e9c55e4ffa47f4942",
+  "files": {
+    "configs/default.yaml": {
+      "sha256": "2b6efc98f372e906277659d720a0bee4551897518a20a3a92291d0cf65e4c78b",
+      "bytes": 7347
+    },
+    "configs/tuned.yaml": {
+      "sha256": "8248cb7739a07e404a7a095065fab8a36c998067fc1315922d661147e64a52d6",
+      "bytes": 5561
+    },
+    "configs/tuned_ext.yaml": {
+      "sha256": "e4f59dde94a86f237560cd318d587d312cfbe9151e828332503a0134f1176588",
+      "bytes": 746
+    },
+    "configs/tuned_layers.yaml": {
+      "sha256": "8441b11a9f4e394d603928c15db784455d2ea8c76313d8f1d2ebc2a43b623e45",
+      "bytes": 4357
+    },
+    "scripts/01_prepare.py": {
+      "sha256": "67b5e9bb4f865b4eb1fc5b2076ecb9890f12415c49bbed764ef28357099d324b",
+      "bytes": 7139
+    },
+    "scripts/02_forecast.py": {
+      "sha256": "d19eb2bf4860316685ffe9de7d2223a7dfce5f77e4c228a88407a9ec5530a628",
+      "bytes": 6213
+    },
+    "scripts/02b_select_forecaster.py": {
+      "sha256": "b6350db4a78cef81a19a43bd5f4039cf10d0c76f9bd351c53b9638e50875d093",
+      "bytes": 1664
+    },
+    "scripts/02c_chronos.py": {
+      "sha256": "86a37cb7c70933200fe32c7ae432b46746e67a0fd7735f9af0fe48c3592d689a",
+      "bytes": 9681
+    },
+    "scripts/02d_chronos_accuracy.py": {
+      "sha256": "22c94625a5bd046ce52555cfec0896e86d53aeaff1ff3de84dee11d3cdb9b78a",
+      "bytes": 7601
+    },
+    "scripts/03_tune.py": {
+      "sha256": "af3f8574914c9ad9fd9214cac1f2523b57c08913b607a3a25e372b618aca9ac0",
+      "bytes": 5953
+    },
+    "scripts/03_tune_layers.py": {
+      "sha256": "39c27d8ef83700ac63d0acf00ba7bfaff8f33ef97f09c72d944cbae130c06afb",
+      "bytes": 4268
+    },
+    "scripts/04_run_grid.py": {
+      "sha256": "d19f61addd8dde88aac0e941d538ebca7f210fb4289408f2edbb07ed56f775bf",
+      "bytes": 37428
+    },
+    "scripts/check_rows.py": {
+      "sha256": "6c81e1592eae69a01369db6a7a212bafbc333e26fbfb8d8fa4197c9428d567f6",
+      "bytes": 2856
+    },
+    "scripts/compare_rows.py": {
+      "sha256": "b61a8ba42413e8c519fe995e4b4ad8f74fa4b2646478a8cf1fe3be40e9f58256",
+      "bytes": 2601
+    },
+    "scripts/diag_oracle.py": {
+      "sha256": "0b8cc3fed008ab438d7772ea4ca465d00e4e50c4e4d0284d70696e25f79feed9",
+      "bytes": 4780
+    },
+    "scripts/diag_oracle_d2.py": {
+      "sha256": "da419c9ac0aa374a94c461d00eac22620c1233ae76967e5e9e603b0cc83e5aa3",
+      "bytes": 4841
+    },
+    "scripts/diag_oracle_paired.py": {
+      "sha256": "fa7d721349517450160929d7355dd52edb042986e1ffaee5e2657838e81bd6a1",
+      "bytes": 4881
+    },
+    "scripts/diag_oracle_trace.py": {
+      "sha256": "7d56c16af850ae14fcdfcffd649c88139a71958095ec2a22e7bda286ae60958a",
+      "bytes": 3524
+    },
+    "scripts/forecast_cross.py": {
+      "sha256": "3c2b72c465a9669337d22fbfd9282a7ac2049c97e9bccbc2e5adcd40bae8b89d",
+      "bytes": 2905
+    },
+    "scripts/make_d3_learned_tables.py": {
+      "sha256": "dec89025c55941f472b22bedb6f5a9ce7c85e8a5b330c6c2acbdcf0214f25f23",
+      "bytes": 2417
+    },
+    "scripts/make_d3_tables.py": {
+      "sha256": "7fd0923ffebbcd468d0c6e6f8e140a0750a958f23a2b2e76401977a6584c4fb1",
+      "bytes": 1886
+    },
+    "scripts/render_tuned_ext.py": {
+      "sha256": "ad45b11872e119731b853f344f93b4e13a6ce68bb3aed0e4d044593d32efa2bd",
+      "bytes": 1121
+    },
+    "scripts/render_tuned_layers.py": {
+      "sha256": "9a65aa364ca1484751a0571f386ebdb5b7a5536e6c4b626d9bf0a08011982cad",
+      "bytes": 1260
+    },
+    "scripts/snapshot.py": {
+      "sha256": "f9c1f66a4f441ae38c4fe1f05f67599711a041569df125059fb2cf0eac64f7c3",
+      "bytes": 3086
+    },
+    "src/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "src/accuracy.py": {
+      "sha256": "34f64dc207620bfa80e13797030165ab38a60872f692e08b4e1e8feeb5f8e9b1",
+      "bytes": 6467
+    },
+    "src/accuracy_subset.py": {
+      "sha256": "8454bd3196e26747f94d5392b6c0120805779e0cc205e0e8d7d14d094ca4bb90",
+      "bytes": 4240
+    },
+    "src/config.py": {
+      "sha256": "057720fbc74e1c164dec6fdd63683a564d4ba1ee163190e69a12176092c9ea99",
+      "bytes": 798
+    },
+    "src/cross_data.py": {
+      "sha256": "6fb2363bcfd94ad65820260857ccd74407bcf553fc0bcfb923ed476fdb81751a",
+      "bytes": 2445
+    },
+    "src/d3.py": {
+      "sha256": "d72a965cf66a980d833795b3f117cfedac51012fb4561fc84621ecabf11eb32d",
+      "bytes": 1688
+    },
+    "src/detect.py": {
+      "sha256": "bd270a2943ee000a5e569c5ea0081b5208a727dbe7165aefd2b515a807f46c26",
+      "bytes": 2324
+    },
+    "src/forecast_select.py": {
+      "sha256": "6515165cff9599169e33433b23833460d24cf705d2a9b293e7980bbab161a4c6",
+      "bytes": 1465
+    },
+    "src/forecasters.py": {
+      "sha256": "0cae8989b42e68c4dfae1e2cc74352705c5bccc3b00190c8feb71a0b1748c91d",
+      "bytes": 5490
+    },
+    "src/injector.py": {
+      "sha256": "8fb2145dfe22eff7c9203e15a6509e0fe8922da23658828fea1a0d1517756fbd",
+      "bytes": 2221
+    },
+    "src/layer_runs.py": {
+      "sha256": "9f4e00c92161eaeb7d14477b9c9b29baaa69da6cdce157b2495a8eac1e9e5b8f",
+      "bytes": 6635
+    },
+    "src/layer_tuning.py": {
+      "sha256": "4b8da86dc8cb50ca138f6e12123f7dd3dd707df29b52d41901b88edd9b171413",
+      "bytes": 4087
+    },
+    "src/layers.py": {
+      "sha256": "3187e41796944e0dc77e4e5909dc4ca9e6f651e33cab2f8fbc1d4519a0b407f5",
+      "bytes": 11625
+    },
+    "src/loaders.py": {
+      "sha256": "d6303fa455f469cdbf846ea2e474df3b51a4c7c9ecaf64926caa6c75b0405aa2",
+      "bytes": 9315
+    },
+    "src/metrics.py": {
+      "sha256": "f52d19e2368add01f29635c613c3f050b5620a5a609979dc7a0dd92956e43e72",
+      "bytes": 2526
+    },
+    "src/policies.py": {
+      "sha256": "294bc31b6459c8c5ba3088fd9e430c6f4291dd7126f82865ac058b53b350cf83",
+      "bytes": 18883
+    },
+    "src/replicates.py": {
+      "sha256": "92c643d941e48543e12fef9422774fcb1855cce6b340c35d3a2213680fcda654",
+      "bytes": 7969
+    },
+    "src/rv4.py": {
+      "sha256": "7be6a115ec79b578a89d12c983a7d5befaa07570ff2333921a6c11fdc5479bae",
+      "bytes": 3612
+    },
+    "src/seeds.py": {
+      "sha256": "27858ebc4409092b0433739db4f5660eefa5a5b14ae693145db8ef4b2968e281",
+      "bytes": 285
+    },
+    "src/simulator.py": {
+      "sha256": "ac34dff2c521a6703064241cf0ad1955aba41065556cf16e469739ed4a0eaba5",
+      "bytes": 5723
+    },
+    "src/tuned_config.py": {
+      "sha256": "8a35a5302b9d2c992d8b77da9d72cc662ce44b5326c3d4402c6b04e564ae33f3",
+      "bytes": 2232
+    },
+    "src/tuned_ext.py": {
+      "sha256": "0794d25123e347a32260ba2f50fd676ceda6a7954fca2d8c5a37cc78ecf90386",
+      "bytes": 1231
+    },
+    "src/tuned_layers.py": {
+      "sha256": "c8da0d70a9bfd683b6e5c4fc8c01d3cabbd4b82970da0f4bc5fc96e47f24a6aa",
+      "bytes": 1597
+    },
+    "src/tuning.py": {
+      "sha256": "63122ab547d543e136f9f3ac9aed16a09fbeb8c0aa9c20732e769772ba0846c9",
+      "bytes": 3749
+    }
+  }
+}

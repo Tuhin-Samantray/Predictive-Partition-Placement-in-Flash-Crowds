@@ -1,0 +1,5 @@
+best_reactive: 'P1'
+P1: {'theta_hi': 1.0, 'cooldown': 0, 'alpha': 0.1}
+P2: {'alpha': 0.1}
+P3_Naive: {'hysteresis': 0.1}
+P4: {'hysteresis': 0.1, 'margin_quantile': 0.9}

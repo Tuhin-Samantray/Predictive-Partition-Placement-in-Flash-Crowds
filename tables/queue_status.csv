@@ -1,0 +1,18 @@
+queue,folder,kind,planned_cells,planned_runs,completed_cells,completed_rows,replicates_min,replicates_max,min_replicates,cells_below_min,duplicate_keys,conservation_false,status,note
+must,must,cell grid,480,14400,480,14400,30,30,30,0,0,0,complete,
+q1,q1,cell grid,264,7920,264,7920,30,30,30,0,0,0,complete,
+q2,q2,cell grid,120,3600,120,3600,30,30,30,0,0,0,complete,
+q3,q3,cell grid,192,5760,192,5760,30,30,30,0,0,0,complete,
+q4,q4,cell grid,56,1680,56,1680,30,30,30,0,0,0,complete,
+q6,q6,cell grid,40,1200,40,1200,30,30,30,0,0,0,complete,
+q8,q8,cell grid,48,1440,48,1440,30,30,30,0,0,0,complete,
+q11,q11_rv0,cell grid,78,2340,78,2340,30,30,30,0,0,0,complete,
+q11b,q11_rv123,cell grid,92,2760,92,2760,30,30,30,0,0,0,complete,
+Q5,tables/forecast_cross.csv,no cell grid,,,,468,,,,,,,"complete, no cell grid",forecast-only cross-data (A37)
+Q10,tables/forecast_accuracy_chronos.csv,no cell grid,,,,48,,,,,,,"complete, no cell grid","Chronos accuracy only (A50, A51)"
+Q9,,not completed,,,0,0,,,,,,,not completed,FA16 sensitivity (A52)
+Q8-XA6,,not completed,,,0,0,,,,,,,not completed,XA6 cross-resolution (A52)
+Q7,,not completed,,,0,0,,,,,,,not completed,AA13 scale (A52)
+D4,,not completed,,,0,0,,,,,,,not completed,Azure 2021 trace (A52)
+XA3,,not completed,,,0,0,,,,,,,not completed,XA3 (A52)
+pairwise,,not completed,,,0,0,,,,,,,not completed,interaction pairwise queue (A61)

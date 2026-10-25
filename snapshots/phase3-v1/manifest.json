@@ -1,0 +1,44 @@
+{
+  "tag": "phase3-v1",
+  "created_utc": "2026-10-23T09:55:38+00:00",
+  "python": "3.14.3",
+  "tree_sha256": "b5c1665f6f039394555eb69984df63a7700fbf4bbab1c5c5b3fb062191ab6036",
+  "files": {
+    "configs/default.yaml": {
+      "sha256": "b2bb8872a04d814c003818e7a91d120e131e8f5ec2fd4f97bb5985c75274c161",
+      "bytes": 4228
+    },
+    "scripts/01_prepare.py": {
+      "sha256": "67b5e9bb4f865b4eb1fc5b2076ecb9890f12415c49bbed764ef28357099d324b",
+      "bytes": 7139
+    },
+    "scripts/snapshot.py": {
+      "sha256": "f9c1f66a4f441ae38c4fe1f05f67599711a041569df125059fb2cf0eac64f7c3",
+      "bytes": 3086
+    },
+    "src/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "src/config.py": {
+      "sha256": "057720fbc74e1c164dec6fdd63683a564d4ba1ee163190e69a12176092c9ea99",
+      "bytes": 798
+    },
+    "src/detect.py": {
+      "sha256": "bd270a2943ee000a5e569c5ea0081b5208a727dbe7165aefd2b515a807f46c26",
+      "bytes": 2324
+    },
+    "src/injector.py": {
+      "sha256": "8fb2145dfe22eff7c9203e15a6509e0fe8922da23658828fea1a0d1517756fbd",
+      "bytes": 2221
+    },
+    "src/loaders.py": {
+      "sha256": "d6303fa455f469cdbf846ea2e474df3b51a4c7c9ecaf64926caa6c75b0405aa2",
+      "bytes": 9315
+    },
+    "src/seeds.py": {
+      "sha256": "27858ebc4409092b0433739db4f5660eefa5a5b14ae693145db8ef4b2968e281",
+      "bytes": 285
+    }
+  }
+}

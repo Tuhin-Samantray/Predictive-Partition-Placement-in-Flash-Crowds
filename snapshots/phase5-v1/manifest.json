@@ -1,0 +1,68 @@
+{
+  "tag": "phase5-v1",
+  "created_utc": "2026-10-23T18:18:31+00:00",
+  "python": "3.14.3",
+  "tree_sha256": "e24684a8742ca118c38327e87552af0693738c33881d46daf2bbe81108e73405",
+  "files": {
+    "configs/default.yaml": {
+      "sha256": "108884d2829efb984696db2ef1eabeabe66bd41cdd5aaf0a3e4bb7b5fdacb843",
+      "bytes": 4350
+    },
+    "scripts/01_prepare.py": {
+      "sha256": "67b5e9bb4f865b4eb1fc5b2076ecb9890f12415c49bbed764ef28357099d324b",
+      "bytes": 7139
+    },
+    "scripts/03_tune.py": {
+      "sha256": "8f4874a1cc2f635f07d1d67f0d09e6c3dcf56e7a012114e08d960bf89f5f1bbb",
+      "bytes": 2713
+    },
+    "scripts/snapshot.py": {
+      "sha256": "f9c1f66a4f441ae38c4fe1f05f67599711a041569df125059fb2cf0eac64f7c3",
+      "bytes": 3086
+    },
+    "src/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "src/config.py": {
+      "sha256": "057720fbc74e1c164dec6fdd63683a564d4ba1ee163190e69a12176092c9ea99",
+      "bytes": 798
+    },
+    "src/detect.py": {
+      "sha256": "bd270a2943ee000a5e569c5ea0081b5208a727dbe7165aefd2b515a807f46c26",
+      "bytes": 2324
+    },
+    "src/injector.py": {
+      "sha256": "8fb2145dfe22eff7c9203e15a6509e0fe8922da23658828fea1a0d1517756fbd",
+      "bytes": 2221
+    },
+    "src/loaders.py": {
+      "sha256": "d6303fa455f469cdbf846ea2e474df3b51a4c7c9ecaf64926caa6c75b0405aa2",
+      "bytes": 9315
+    },
+    "src/metrics.py": {
+      "sha256": "f52d19e2368add01f29635c613c3f050b5620a5a609979dc7a0dd92956e43e72",
+      "bytes": 2526
+    },
+    "src/policies.py": {
+      "sha256": "70c6677ae6ac12297aa871522290d7f0a67d01a4eaede7bb7684caab17d5ef78",
+      "bytes": 4853
+    },
+    "src/replicates.py": {
+      "sha256": "2ea2f35ac62ce82f293f4c0ce6571ea116316ea495289221d5470ba4cb035e6d",
+      "bytes": 4729
+    },
+    "src/seeds.py": {
+      "sha256": "27858ebc4409092b0433739db4f5660eefa5a5b14ae693145db8ef4b2968e281",
+      "bytes": 285
+    },
+    "src/simulator.py": {
+      "sha256": "9e2db8829e1d291e72ac3fd622fe3234ac90ebc7ec75f0d951ef3645157e62ed",
+      "bytes": 5044
+    },
+    "src/tuning.py": {
+      "sha256": "88bb38e00b6095158f17a134757698cdc070f8cf4b3784574a77c498c32bdce2",
+      "bytes": 3097
+    }
+  }
+}

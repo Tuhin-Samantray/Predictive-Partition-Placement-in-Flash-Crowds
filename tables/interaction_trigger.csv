@@ -1,0 +1,13 @@
+dataset,variant,n_factors_tested,n_active_factors,active_factors,fires
+D1,P1,3,2,"AA5,AA9",True
+D1,P2,4,3,"AA3,AA5,AA9",True
+D1,P3_lightgbm,4,3,"AA2,AA3,AA5",True
+D1,P4,4,2,"AA3,AA5",True
+D1,P4a,4,2,"AA3,AA5",True
+D1,P5,3,2,"AA3,AA5",True
+D2,P1,3,3,"AA4,AA5,AA9",True
+D2,P2,4,2,"AA3,AA5",True
+D2,P3_lightgbm,4,3,"AA2,AA3,AA5",True
+D2,P4,4,3,"AA3,AA5,AA6",True
+D2,P4a,4,4,"AA3,AA4,AA5,AA6",True
+D2,P5,3,2,"AA3,AA5",True
