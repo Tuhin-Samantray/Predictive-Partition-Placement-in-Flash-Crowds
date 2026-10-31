@@ -88,11 +88,11 @@ The research follows a forecast–estimate–place–evaluate workflow.
 
 ### 1. Workload observation
 
-Historical workload information is used to characterize demand and identify changes relevant to placement decisions.
+Historical workload information is used to characterize demand and identify changes relevant to placement decisions and actions.
 
 ### 2. Future-state forecasting
 
-A forecasting model estimates future conditions from available historical information. Ridge regression is one of the predictive methods investigated in the project.
+A forecasting model projects future trends using historical data, with ridge regression serving as one of the predictive techniques explored in this project.
 
 ### 3. Cross-layer cost estimation
 
@@ -169,9 +169,7 @@ The project investigates multiple placement policies to distinguish the effects 
 
 ### Static placement
 
-Uses a predetermined placement strategy without adapting decisions to forecasted future conditions.
-
-This provides a baseline for evaluating the benefits and costs of more adaptive policies.
+By employing a rigid placement strategy that does not account for future projections, this method establishes a benchmark to evaluate the costs and benefits of dynamic policies.
 
 ### Reactive placement
 
@@ -281,7 +279,7 @@ The evaluation is organized around comparisons between placement strategies unde
 
 ### Policy comparison
 
-Compare static, reactive, predictive, and oracle policies where applicable.
+Compares static, reactive, predictive, and oracle policies where applicable.
 
 ### Prediction-horizon analysis
 
