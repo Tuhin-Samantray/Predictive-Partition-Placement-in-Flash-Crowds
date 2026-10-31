@@ -314,7 +314,7 @@ def main():
         key = f"FA{number}"
         files = [p.name for p in figures.get(key, [])]
         status = "ok" if files else ("not completed" if key in args.not_completed else
-                                     ("undefined in the guide" if key in args.undefined else "MISSING"))
+                                    ("undefined in the guide" if key in args.undefined else "MISSING"))
         coverage.append((key, "figure", status, ";".join(files)))
     for number in span(args.required_tables):
         key = f"TA{number}"
