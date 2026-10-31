@@ -79,7 +79,7 @@ def verify_hashes(root):
     return len(expected), bad, absent
 
 
-# ---------------------------------------------------------------- formatting
+# ------------------------------------- formatting
 
 def sig_text(value, digits):
     text = f"{value:.{digits}g}"
@@ -122,7 +122,7 @@ def is_numeric_column(values):
     return bool(seen) and all(NUMBER.match(v) for v in seen)
 
 
-# ---------------------------------------------------------------- captions
+# -------------------------------------- captions
 
 def load_caption_overrides(root):
     path = root / "manuscript" / "captions.csv"
@@ -168,7 +168,7 @@ def load_column_choices(root):
     return choice
 
 
-# ---------------------------------------------------------------- tables
+# ---------------------------------------- tables
 
 def read_table(path, wanted=None):
     with open(path, newline="", encoding="utf-8-sig") as handle:
